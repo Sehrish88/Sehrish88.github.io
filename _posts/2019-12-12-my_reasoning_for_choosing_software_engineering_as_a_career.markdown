@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "**My Reasoning for Choosing Software Engineering as a Career**"
-date:       2019-12-13 01:27:15 +0000
+date:       2019-12-12 20:27:16 -0500
 permalink:  my_reasoning_for_choosing_software_engineering_as_a_career
 ---
 
