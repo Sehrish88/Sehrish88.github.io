@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Understanding Logic and Conditionals in Ruby"
-date:       2020-01-07 18:39:26 +0000
+date:       2020-01-07 13:39:27 -0500
 permalink:  understanding_logic_and_conditionals_in_ruby
 ---
 
