@@ -14,7 +14,7 @@ After immersing myself in coding, and more specifically the Ruby language, I qui
 
 
 # Value of Hashes
-Data structures like hashes use key and value pairs to store data. Every key has a value, and the value can be a string, integer, or symbol. In my CLI application I used a weather forecast API which returned a huge hash of weather properties. Every weather property like high-temp, low-temp, snow, precipitation etc had a specific value which was based on the city and state entered by the user. The weather hash also included arrays of different weather properties, and I had to iterate through the hash to extract the patient properties that I wanted. 
+Data structures like hashes use key and value pairs to store data. Every key has a value, and the value can be a string, integer, or symbol. In my CLI application I used a weather forecast API which returned a huge hash of weather properties. Every weather property like high-temp, low-temp, snow, precipitation etc had a specific value which was based on the city and state entered by the user. The weather hash also included arrays of different weather properties, and I had to iterate through the hash to extract the pertinent properties that I wanted. 
 
 # Data is Life
 Data structures can be seen as a metaphor for life because life is all about data and information, and us trying to classify or extract that data and information. Data structures would be useful in any field which humans have ventured in such as the health field in which patients can be mapped to physicians, or contact information where names can be mapped to phone numbers, or even dictionaries where words can be mapped to definitions. Data structures can prove useful to any field that uses data and as we know, data is everywhere. 
