@@ -6,7 +6,7 @@ permalink:  data_structures_my_cli_app_and_life
 ---
 
 
-In this blog I will share my reflections and lessons from the recent CLI application projecf thaf i completed, which involved tne creation of a weather app. in particular, I'd like to highlight the significance of data and data structures. 
+In this blog I will share my reflections and lessons from the recent CLI application project that i completed, which involved the creation of a weather app. in particular, I'd like to highlight the significance of data and data structures. 
 
 # Array of Light
 
