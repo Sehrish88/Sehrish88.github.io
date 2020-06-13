@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "How Sinatra Paves The "Route" For Rails"
+title:      "How Sinatra Paves The Route For Rails"
 date:       2020-06-13 15:33:26 -0400
 permalink:  how_sinatra_paves_the_route_for_rails
 ---
