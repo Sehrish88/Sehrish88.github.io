@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React's Well Deserved Popularity "
-date:       2020-10-22 19:46:46 +0000
+date:       2020-10-22 15:46:47 -0400
 permalink:  reacts_well_deserved_popularity
 ---
 
