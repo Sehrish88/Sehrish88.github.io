@@ -7,7 +7,7 @@ permalink:  making_api_calls_in_react_with_fetch
 
  
 
-Modern software today attempts to run processes that are asynchronous, meaning they let other tasks run while one task is completing. In JavaScript there are two types of asynchronous code, older style callback functions and the newer promises. This is where fetch() comes in as it is the newer style of async code which modern web APIs use and it returns a promise.  
+Modern software today is designed to run processes that are asynchronous, meaning they let other tasks run while one task is completing. In JavaScript there are two types of asynchronous code, older style callback functions and the newer promises. This is where fetch() comes in as it is the newer style of async code which modern web APIs use and it returns a promise.  
 
 The modern method of fetching data from a server is  to update particular sections of a webpage without having to load an entire new page. It used to be that when you requested information from a website, you’d have to wait for the response and load an entire page again which made for a poor user experience. 
 
