@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The 'this' keyword in JavaScript Objects"
-date:       2021-04-18 18:29:36 +0000
+date:       2021-04-18 14:29:36 -0400
 permalink:  the_this_keyword_in_javascript_objects
 ---
 
@@ -40,6 +40,43 @@ const lion = {
 lion.diet()
 ```
 
-> However we will see that invoking that method does not print that sound a lion makes to the console! Instead, we get a reference error:` "ReferenceError: dietType is not defined"`
+However we will see that invoking that method does not print that sound a lion makes to the console! Instead, we get a reference error:` "ReferenceError: dietType is not defined"` This is strange because we would expect thast the `dietType` would be defined since it is a property of the `lion` object. It is returning `undefined` because in the `scope` of the `.diet()` method we do not automatically have access to the properties of the `lion` object. 
+
+How can we get the `.diet()` method to work? By using the `this` keyword! We have to change the `.diet()` method to use the `this` keyword like so: 
+
+```
+const lion = {
+  dietType: 'carnivore',
+  makeSound() {
+    console.log('roarrrrr');
+  },
+  diet() {
+    console.log(this.dietType);
+  }
+};
+lion.diet()
+```
+
+Now the `.diet()` method works! As stated earler, the `this` keyword refers to the object it belongs to and provides access to that objects properties. For this case, the object that `this` belongs to is `lion`, so by using `this` we are able to access the `lion` object and its `dietType` property by using dot notation. 
+
+That was pretty straightforward, however it gets a little complicated when we use the `this` keyword in arrow functions within a method. Lets refactor our `lion` object a bit to use an arrow function for the `diet()` method: 
+
+```
+const lion = {
+  dietType: 'carnivore',
+  makeSound() {
+    console.log('roarrrrr');
+  },
+  diet: () =>  {
+    console.log(this.dietType);
+  }
+};
+lion.diet()
+```
+
+Calling the `.diet()` method now will print `undefined` to the console. Why is that? This change in behavior resulted from the fact that we used an arrow function to define the `.diet()` method. Arrow functions have a built in functionalty which `bind`s or ties the value of the function to an already defined value that is NOT the calling object. In the example above, the value of `this` is an object which exiss in the global scope that DOES NOT have a `dietType` property which iis why calling the `.diet() `method returns `undefined`.  
+
+Remeber to use the `this` keyword in methods in your objects to be able to access theobject's properties,  but DO NOT define those methods using arrow functions. 
+
 
 
