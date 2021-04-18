@@ -40,7 +40,7 @@ const lion = {
 lion.diet()
 ```
 
-However we will see that invoking that method does not print that sound a lion makes to the console! Instead, we get a reference error:` "ReferenceError: dietType is not defined"` This is strange because we would expect thast the `dietType` would be defined since it is a property of the `lion` object. It is returning `undefined` because in the `scope` of the `.diet()` method we do not automatically have access to the properties of the `lion` object. 
+However we will see that invoking that method does not print the sound a lion makes to the console! Instead, we get a reference error:` "ReferenceError: dietType is not defined"` This is strange because we would expect thast the `dietType` would be defined since it is a property of the `lion` object. It is returning `undefined` because in the `scope` of the `.diet()` method we do not automatically have access to the properties of the `lion` object. 
 
 How can we get the `.diet()` method to work? By using the `this` keyword! We have to change the `.diet()` method to use the `this` keyword like so: 
 
