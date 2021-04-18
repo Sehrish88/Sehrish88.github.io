@@ -76,7 +76,7 @@ lion.diet()
 
 Calling the `.diet()` method now will print `undefined` to the console. Why is that? This change in behavior resulted from the fact that we used an arrow function to define the `.diet()` method. Arrow functions have a built in functionalty which `bind`s or ties the value of the function to an already defined value that is NOT the calling object. In the example above, the value of `this` is an object which exiss in the global scope that DOES NOT have a `dietType` property which iis why calling the `.diet() `method returns `undefined`.  
 
-Remeber to use the `this` keyword in methods in your objects to be able to access theobject's properties,  but DO NOT define those methods using arrow functions. 
+Remeber to use the `this` keyword in methods in your objects to be able to access the object's properties,  but DO NOT define those methods using arrow functions. 
 
 
 
