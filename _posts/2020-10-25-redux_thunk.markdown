@@ -16,8 +16,5 @@ If you want to write asynchronous logic to interact with the store, you need mid
 
 To add redux thunk to you project, you must npm install redux thunk. After this you need to import redux-thunk and insert its middleware into Redux. Then you need to wrap thunk in the applyMiddleware call and pass it in as a parameter. After doing all this you can now dispatch functions that do whatever you want them to do. 
 
-```
-def modern 
-juhfujshfn
-```
+
 
