@@ -6,6 +6,8 @@ permalink:  my_reasoning_for_choosing_software_engineering_as_a_career
 ---
 
 
+![](https://www.bmrsolutions.co.uk/wp-content/uploads/Coding.jpg)
+
 Aside from the obvious reasons of the great pay and economic benefits such as bonuses, I have a few very pertinent and particular reasons for wanting to pursue a career in software engineering. I had grown up being fascinated by health care professionals and how they were able to change peoples' lives for the better, make ripples in society by helping people live fuller lives, and how they were a source of inspiration and hope. I wanted to be a doctor or an APRN (advanced practice registered nurse) so I could help people reach their potential by improving their health and thus make society better. 
 
 In the summer of 2011 I was diagnosed with multiple sclerosis and my life came to a screeching halt. I was only 22, but had to re-evaluate my dreams and aspirations because MS is a condition that can affect you physically and make you muscularly weaker than the average individual. Aside from dealing with a chronic illness that I had no idea about at that time, I had to also deal with the increasing frailty of my body. All this meant that i had to reroute my plans of helping people and improving the world. 
